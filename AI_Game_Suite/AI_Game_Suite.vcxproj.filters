@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\BlackJack">
+      <UniqueIdentifier>{49149cfb-4d5a-402a-b7c7-c67342198576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Chess">
+      <UniqueIdentifier>{b6e691bf-846d-43a7-9271-8a1718bf2f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BlackJack">
+      <UniqueIdentifier>{f32755ee-0613-44d2-b657-79e666f86574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chess">
+      <UniqueIdentifier>{31f165ff-f9af-4178-9c18-9c645f371f51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackjackGame.cpp">
+      <Filter>Resource Files\BlackJack</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGame.cpp">
+      <Filter>Resource Files\Chess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackjackGame.h">
+      <Filter>Header Files\BlackJack</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessGame.h">
+      <Filter>Header Files\Chess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

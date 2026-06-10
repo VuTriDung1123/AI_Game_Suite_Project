@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI_Game_Suite", "AI_Game_Suite\AI_Game_Suite.vcxproj", "{78D33456-6865-4298-B2B8-0A562BDF7D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Debug|x64.ActiveCfg = Debug|x64
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Debug|x64.Build.0 = Debug|x64
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Debug|x86.Build.0 = Debug|Win32
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Release|x64.ActiveCfg = Release|x64
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Release|x64.Build.0 = Release|x64
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Release|x86.ActiveCfg = Release|Win32
+		{78D33456-6865-4298-B2B8-0A562BDF7D4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0893E2C-CB45-42C9-91E5-D01DE96B565E}
+	EndGlobalSection
+EndGlobal
